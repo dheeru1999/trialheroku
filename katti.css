@@ -109,3 +109,12 @@ h2{
 .footer{
   text-align: right;
 }
+@media(max-width: 1028px){
+  .tittle_image{
+    position:static;
+    transform:rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
