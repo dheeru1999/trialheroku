@@ -33,6 +33,7 @@ body{
 }
 .tittle_image{
   width:60%;
+  position:absolute;
 }
 .rotated{
   transform: rotate(25deg);
@@ -40,6 +41,9 @@ body{
 }
 #features{
   padding: 3% 15%;
+  position:relative;
+  z-index: 1;
+  background-color:#fff;
 }
 .feature_box{
   text-align :center;
